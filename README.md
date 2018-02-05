@@ -20,7 +20,6 @@ Send '!commands' in the message box without the quotes to see a list of commands
 
 ## Built With
 
-* Node.js
 * [Node.js](https://nodejs.org/)
 * [Express](https://expressjs.com/)
 * [Pug](https://pugjs.org/)
