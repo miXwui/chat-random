@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+    div#page
+        div#header
+            h1=title
+            h2#alert
+            h3#help Type !commands for a list of commands
+        div#messagesContainer
+            ul#messages
+        div#formContainer
+            form(id="messageBox" action="" onSubmit="return handlers.sendMessage()")
+                input(id="messageInput" autocomplete="off" type="text" autofocus)
+                button Send
